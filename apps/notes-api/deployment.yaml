@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/hiral-devicha/notes-application:9e3f5f133ea914a9bbb77919ea4853eb108aca19
+        image: ghcr.io/hiral-devicha/notes-application:4b226193053380acb39cd268a2f7fc7efc78bf7e
         ports:
         - containerPort: 8080
         readinessProbe:
